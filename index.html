@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-54</title>
+    <style>
+        #aa{
+            margin: 100px;
+        }
+        body{
+            text-align: center;
+            background-color: #edb879;
+        }
+    </style>
+    <script>
+        var i = 0
+        var x = 0
+        function aaaaa(){
+           i = Number(document.getElementById("sq").value) * 4
+           document.getElementById("ppp").innerHTML = i;
+           x = Number(document.getElementById("sq").value) * Number(document.getElementById("sq").value)
+           document.getElementById("aaa").innerHTML = x; 
+        }
+    </script>
+    
+        
+     
+ 
+</head>
+<body>
+ <h1>FARMING CALCULATOR</h1>
+ <div>
+
+ 
+ </div>
+ <div id="aa">
+     <span id="sqs" >enter the length of the side of the farm
+         <input type="number" id="sq">
+     </span>
+ </div>
+ <div id="aa">
+     <button onclick="aaaaa()">
+      calculate   
+     </button>
+ </div>
+ <div> area of farm
+    <h1 id="aaa">0</h1>
+ </div>
+ <div> perimeter of farm
+    <h1 id="ppp">0</h1>
+ </div>
+ 
+</body>
+</html>
